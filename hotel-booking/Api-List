@@ -1,0 +1,31 @@
+http://localhost:8080/api/getCustomer/naveen.dpt2007@gmail.com/abc123
+http://localhost:8080/api/createCustomer
+
+
+http://localhost:8080/api/createCustomer
+	{"firstName":"Naveen","lastName":"Kumar","dateOfBirth":"1988-11-20","email":"naveen.dpt2020@gmail.com","password":"abc1234"}
+	{"firstName":"Puneeth","lastName":"Kumar","dateOfBirth":"1988-05-02","email":"puneeth.2010@gmail.com","password":"password"}
+
+http://localhost:8080/api/getCustomerId/{email}/{password}
+http://localhost:8080/api/getCustomer/{email}/{password}
+http://localhost:8080/api/getRoomsList
+http://localhost:8080/api/getBookingList
+
+http://localhost:8080/api/isCustomerExists/naveen
+
+
+
+
+
+http://localhost:8080/api/bookRoom
+	{"roomId":"50002","customerId":"70002","startDate":"2020-01-04","endDate":"2020-01-04"}
+
+http://localhost:8080/api/addRoom
+	{"roomType":"K","rent":2500}
+	{"roomType":"Q","rent":2000}
+	{"roomType":"Q","rent":2000}
+	{"roomType":"K","rent":2500}
+	{"roomType":"K","rent":2500}
+
+
+
